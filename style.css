@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* hero section starts  */
+ #hero-section .container{
+    background-color: #F4F6F5 ;
+    border-radius: 25px;
+}
+.hero-design{
+    position: relative;
+    width: 230px;
+    background-image: url(images/Rectangle\ 6.png);
+    padding: 10px;
+
+}
+
+#hero-section .font{
+    font-size: 3rem;
+}
+.hero-item{
+    position: relative;
+    background-image: url(images/Rectangle\ 25.png);
+    width: 200px;
+   
+
+}
+/* brands section starts  */
+#brands{
+    background-color: #EBD96B;
+}
+/* card section  */
+.card{
+    border: none;
+  }
+  .card-img{
+    position: relative;
+    background-image:url(images/Vector\ 8.png) ;
+    background-repeat: no-repeat;
+    position: left bottom;
+  }
+
+/* banner section  */
+.banner-img{
+    position: relative;
+    background-image: url(images/Rectangle\ 3.png);
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    padding-left: 30px;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    font-size: 3.8rem;
+   
+   
+}
+#banner{
+    background-color: #E0C340;
+   
+   background-image: url(images/Rectangle\ 24.png);
+    background-repeat: no-repeat;
+    background-size:cover ;   
+}
+.banner-font{
+    font-size: 3rem;
+}
+/* group section  */
+#group{
+    position: center;
+}
+.group-img{
+    background-image: url(images/Vector\ 8.png);
+    background-repeat: no-repeat;
+    position: left bottom;
+
+}
+.box-img{
+    background-image: url(images/Vector\ 8.png);
+    background-repeat: no-repeat;
+    position: relative;
+    position: left bottom ;
+}
+.small-img{
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+
+/* .mobile-img{
+    background-image: url(images/Ellipse_1-removebg-preview.png);
+    background-repeat: no-repeat;
+    position: relative;
+    position: center;
+    
+} */
+
+
+.mobile-pic{
+    width: 300px;
+}
+
+/* shopping app  */
+
+#shopping-app{
+    background-image: url(images/Rectangle\ 24.png);
+     min-height: 100vh; 
+
+     
+}
+.shopping-h1{
+    font-size: 3rem;
+}
+.box{
+    padding-top: 25%;
+}
+.my-form{
+    position: fixed top;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 5px, -2px -0px 5px #ffffff;
+}
+.form-box input{
+    font-size: 1.2rem;
+    color: #00000090;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+}
+.form-box button{
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+   
+    
+}
+/* footer  */
+.icon i{
+    display: inline-block;
+    padding: 10px;
+    color: #E0C340;
+
+  }
+  footer ul li{
+   list-style-type: none;
+ 
+
+  }
+  footer ul li a{
+  text-decoration: none;
+  color: white;
+
+  }
+
+ 
